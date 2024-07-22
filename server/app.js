@@ -14,6 +14,4 @@ app.use(bodyParser.json())
 app.use("/pincode", pincoderouter)
 app.use("/find", pincoderouter)
 
-
-
 export default app;
