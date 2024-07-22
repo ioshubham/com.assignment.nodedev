@@ -27,3 +27,18 @@ Run
 ```bash
 npm run dev
 npm run prod
+```
+API calls
+```
+POST localhost:5454/pincode/addpincode
+body
+{
+    "pincodes":["110001","380061"]
+}
+
+GET localhost:5454/find/pincode
+body
+{
+    "pincode":"110001"
+}
+```
